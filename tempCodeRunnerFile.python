@@ -1,0 +1,10 @@
+class Hello():
+    a = 5
+    def output(self):
+        print(self.a)
+
+b = Hello()
+b.output()
+c = Hello()
+c.output()
+print(c.a)
